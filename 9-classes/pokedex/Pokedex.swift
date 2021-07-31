@@ -4,7 +4,7 @@ class Pokemon {
   var num = 0
   var name = ""
   var type = [""]
-  var ability: [""]
+  var ability: [""] // this causes an error, as it should be an = sign!
 
   init(num: Int, name: String, type: [String], ability: [String]) {
     self.num = num
